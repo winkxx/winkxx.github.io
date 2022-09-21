@@ -4,12 +4,51 @@
   
     
     <entry>
-      <title>55 个直播平台的直播源获取~</title>
-      <link href="//articles/2021/07/02/1625214200185.html.html"/>
-      <url>//articles/2021/07/02/1625214200185.html.html</url>
+      <title>利用Github Action自动续约Freenom域名 </title>
+      <link href="/githubactionfreenom.html"/>
+      <url>/githubactionfreenom.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Real-Url"><a href="#Real-Url" class="headerlink" title="Real-Url"></a>Real-Url</h1><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><ul><li><code>https://github.com/wbt5/real-url</code></li></ul><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>没想到还有这么多朋友发 issue 和邮件咨询问题，感谢大家的支持?！因为有时很忙，回复和提交代码的周期会有点长，抱歉哦?</p><p>这个仓库存放的是：获取一些直播平台真实流媒体地址（直播源）和弹幕的 Python 代码实现。获取的地址经测试，均可在 PotPlayer、VLC、DPlayer(flv.js + hls.js)等播放器中播放。</p><blockquote><p>?????? ：如果该项目能帮助到您，欢迎 star 和 pr；或在您的项目中标注 Real-Url 为参考来源。</p></blockquote><p>目前已实现：</p><p><strong>55</strong> 个直播平台的直播源获取：斗鱼直播、虎牙直播、哔哩哔哩直播、战旗直播、网易 CC 直播、火猫直播、企鹅电竞、YY 直播、一直播、快手直播、花椒直播、映客直播、西瓜直播、触手直播（已倒闭）、NOW 直播、抖音直播，爱奇艺直播、酷狗直播、龙珠直播、PPS 奇秀直播、六间房、17 直播、来疯直播、优酷轮播台、网易 LOOK 直播、千帆直播、陌陌直播、小米直播、迅雷直播、京东直播、企鹅体育、人人直播、棉花糖直播、九秀直播、羚萌直播、95秀、新浪疯播、红人直播、艾米直播、KK直播、酷我聚星、乐嗨直播、秀色直播、星光直播、我秀直播、热猫直播、艺气山直播、AcFun 直播、猫耳FM、畅秀阁、Twitch、TikTok、央视频、PP体育、zhibotv、腾讯体育直播。</p><p><strong>18</strong> 个直播平台的弹幕获取：斗鱼直播、虎牙直播、哔哩哔哩直播、快手直播、火猫直播、企鹅电竞、花椒直播、映客直播、网易 CC 直播、酷狗直播、龙珠直播、PPS 奇秀、搜狐千帆、战旗直播、来疯直播、网易 LOOK 直播、AcFun 直播、艺气山直播。</p><h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><ol><li>项目使用了很简单的 Python 代码，仅在 Python 3 环境运行测试。</li><li>具体所需模块请查看 requirements.txt</li><li>获取斗鱼和爱奇艺的直播源，需 JavaScript 环境，可使用 node.js。爱奇艺直播里有个参数是加盐的 MD5，由仓库中的 iqiyi.js 生成。</li><li>每个平台的直播源和弹幕获取功能相互独立，以后再整合。弹幕食用：python main.py</li></ol>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://b3logfile.com/bing/20191227.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt></p><h1 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h1><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><ul><li><a href="https://github.com/winkxx/freenom" target="_blank" rel="noopener">winkxx/freenom: Freenom域名自动续期。Freenom domain name renews automatically. (github.com)</a></li><li><h5 id="注意：GitHub-官方不允许使用-GitHub-Action-做签到或者续期类应用，否则会封禁项目甚至封号，故为项目能长期维护下去，应-GitHub-官方要求，-本项目已经移除-Action-方式的应用，望周知。已经-fork-使用的，可以尽快将项目转移到自己的-VPS-上，推荐通过-Docker-部署，-或者直接搬运到腾讯云函数部署。本项目依然长期维护。"><a href="#注意：GitHub-官方不允许使用-GitHub-Action-做签到或者续期类应用，否则会封禁项目甚至封号，故为项目能长期维护下去，应-GitHub-官方要求，-本项目已经移除-Action-方式的应用，望周知。已经-fork-使用的，可以尽快将项目转移到自己的-VPS-上，推荐通过-Docker-部署，-或者直接搬运到腾讯云函数部署。本项目依然长期维护。" class="headerlink" title="注意：GitHub 官方不允许使用 GitHub Action 做签到或者续期类应用，否则会封禁项目甚至封号，故为项目能长期维护下去，应 GitHub 官方要求， 本项目已经移除 Action 方式的应用，望周知。已经 fork 使用的，可以尽快将项目转移到自己的 VPS 上，推荐通过 Docker 部署， 或者直接搬运到腾讯云函数部署。本项目依然长期维护。"></a>注意：GitHub 官方不允许使用 GitHub Action 做签到或者续期类应用，否则会封禁项目甚至封号，故为项目能长期维护下去，应 GitHub 官方要求， 本项目已经移除 Action 方式的应用，望周知。已经 fork 使用的，可以尽快将项目转移到自己的 VPS 上，推荐通过 Docker 部署， 或者直接搬运到腾讯云函数部署。本项目依然长期维护。</h5></li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ul><li>该版本是带有Action版本的fork版(不建议使用吧)</li><li>所以建议用腾讯云函数吧，只列举腾讯云的用法</li></ul><h3 id="通过腾讯云函数（SCF）部署"><a href="#通过腾讯云函数（SCF）部署" class="headerlink" title="?  通过腾讯云函数（SCF）部署"></a>?  通过腾讯云函数（SCF）部署</h3><hr><h4 id="1、下载-SCF-版本的压缩包"><a href="#1、下载-SCF-版本的压缩包" class="headerlink" title="1、下载 SCF 版本的压缩包"></a>1、下载 SCF 版本的压缩包</h4><p>此版本为特别版，支持通过腾讯云函数部署，与主分支版本不兼容，版本号为<code>v0.3_scf</code>，下载地址：<br><a href="https://github.com/luolongfei/freenom/archive/refs/tags/v0.3_scf.zip" target="_blank" rel="noopener">https://github.com/luolongfei/freenom/archive/refs/tags/v0.3_scf.zip</a></p><p>下载后解压到你能找到的任意目录，你将得到一个文件夹，后期将通过文件夹的形式上传到腾讯云函数。<br>2、创建腾讯云函数</p><p>直接访问腾讯云函数控制台创建云函数： <a href="https://console.cloud.tencent.com/scf/list-create" target="_blank" rel="noopener">https://console.cloud.tencent.com/scf/list-create</a> ，<br>按照下图所示的说明进行创建。如果无法看清图片，可访问： <a href="https://github.com/luolongfei/freenom/blob/master/resources/screenshot/scf.png" target="_blank" rel="noopener">https://github.com/luolongfei/freenom/blob/master/resources/screenshot/scf.png</a><br>或者 <a href="https://z3.ax1x.com/2021/06/01/2nKCF0.png" target="_blank" rel="noopener">https://z3.ax1x.com/2021/06/01/2nKCF0.png</a> 查看原图。</p><p><a href="https://imgtu.com/i/2nKCF0" target="_blank" rel="noopener"><img src="https://z3.ax1x.com/2021/06/01/2nKCF0.png" alt="scf01"></a></p><p>按照上图所示部署完成后，可以点击云函数的名称进入云函数管理画面，管理画面往下翻可看到<code>部署</code>与<code>测试</code>按钮，点击<code>测试</code>，稍等几秒钟，即可看到输出日志，<br>根据输出日志判断配置以及部署是否正确。</p><p><a href="https://imgtu.com/i/2nGZ3q" target="_blank" rel="noopener"><img src="https://z3.ax1x.com/2021/06/01/2nGZ3q.png" alt="scf02"></a></p><p><em>有关腾讯云函数部署的内容结束。</em></p><h2 id="通知"><a href="#通知" class="headerlink" title="通知"></a>通知</h2><ul><li>人懒不想弄通知</li><li>怎么弄？添加云函数中的环境即可</li></ul><table><thead><tr><th align="center">变量名</th><th align="center">含义</th><th align="center">默认值</th><th align="center">是否必须</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">FREENOM_USERNAME</td><td align="center">Freenom 账户</td><td align="center">-</td><td align="center">是</td><td align="center">只支持邮箱账户，如果你是使用第三方社交账户登录的用户，请在 Freenom 管理页面绑定邮箱，绑定后即可使用邮箱账户登录</td></tr><tr><td align="center">FREENOM_PASSWORD</td><td align="center">Freenom 密码</td><td align="center">-</td><td align="center">是</td><td align="center">某些特殊字符可能需要转义，详见<code>.env</code>文件内注释</td></tr><tr><td align="center">MULTIPLE_ACCOUNTS</td><td align="center">多账户支持</td><td align="center">-</td><td align="center">否</td><td align="center">多个账户和密码的格式必须是“<code>&lt;账户1&gt;@&lt;密码1&gt;|&lt;账户2&gt;@&lt;密码2&gt;|&lt;账户3&gt;@&lt;密码3&gt;</code>”，注意不要省略“&lt;&gt;”符号，否则无法正确匹配。如果设置了多账户，上面的<code>FREENOM_USERNAME</code>和<code>FREENOM_PASSWORD</code>可不设置</td></tr><tr><td align="center">MAIL_USERNAME</td><td align="center">机器人邮箱账户</td><td align="center">-</td><td align="center">是</td><td align="center">支持<code>Gmail</code>、<code>QQ邮箱</code>以及<code>163邮箱</code>，尽可能使用<code>163邮箱</code>或者<code>QQ邮箱</code>而非<code>Gmail</code>。因为谷歌的安全机制，每次在新设备登录 <code>Gmail</code> 都会先被限制，需要手动解除限制才行。具体的配置方法参考「 <a href="#--配置发信邮箱">配置发信邮箱</a> 」</td></tr><tr><td align="center">MAIL_PASSWORD</td><td align="center">机器人邮箱密码</td><td align="center">-</td><td align="center">是</td><td align="center"><code>Gmail</code>填密码，<code>QQ邮箱</code>或<code>163邮箱</code>填授权码</td></tr><tr><td align="center">TO</td><td align="center">接收通知的邮箱</td><td align="center">-</td><td align="center">是</td><td align="center">你自己最常用的邮箱，推荐使用<code>QQ邮箱</code>，用来接收机器人邮箱发出的域名相关邮件</td></tr><tr><td align="center">MAIL_ENABLE</td><td align="center">是否启用邮件推送功能</td><td align="center">true</td><td align="center">否</td><td align="center"><code>true</code>：启用<code>false</code>：不启用默认启用，如果设为<code>false</code>，不启用邮件推送功能，则上面的<code>MAIL_USERNAME</code>、<code>MAIL_PASSWORD</code>、<code>TO</code>变量变为非必须，可不设置</td></tr><tr><td align="center">TELEGRAM_CHAT_ID</td><td align="center">你的<code>chat_id</code></td><td align="center">-</td><td align="center">否</td><td align="center">通过发送<code>/start</code>给<code>@userinfobot</code>可以获取自己的<code>id</code></td></tr><tr><td align="center">TELEGRAM_BOT_TOKEN</td><td align="center">你的<code>Telegram bot</code>的<code>token</code></td><td align="center">-</td><td align="center">否</td><td align="center"></td></tr><tr><td align="center">TELEGRAM_BOT_ENABLE</td><td align="center">是否启用<code>Telegram Bot</code>推送功能</td><td align="center">false</td><td align="center">否</td><td align="center"><code>true</code>：启用<code>false</code>：不启用默认不启用，如果设为<code>true</code>，则必须设置上面的<code>TELEGRAM_CHAT_ID</code>和<code>TELEGRAM_BOT_TOKEN</code>变量</td></tr><tr><td align="center">NOTICE_FREQ</td><td align="center">通知频率</td><td align="center">1</td><td align="center">否</td><td align="center"><code>0</code>：仅当有续期操作的时候<code>1</code>：每次执行</td></tr></tbody></table><p><em>更多配置项含义，请参考<code>.env</code>文件中的注释。</em></p><h3 id="配置发信邮箱"><a href="#配置发信邮箱" class="headerlink" title="?  配置发信邮箱"></a>?  配置发信邮箱</h3><p>下面分别介绍<code>Gmail</code>、<code>QQ邮箱</code>以及<code>163邮箱</code>的设置，你只用看自己需要的部分。注意，<code>QQ邮箱</code>与<code>163邮箱</code>均使用账户加授权码的方式登录，<br><code>谷歌邮箱</code>使用账户加密码的方式登录，请知悉。另外还想吐槽一下，国产邮箱你得花一毛钱给邮箱提供方发一条短信才能拿到授权码。</p><p><em>（点击即可展开或收起）</em></p><details>    <summary>设置Gmail</summary><br><p>1、在<code>设置&gt;转发和POP/IMAP</code>中，勾选</p><ul><li>对所有邮件启用 POP</li><li>启用 IMAP</li></ul><p><img src="https://s2.ax1x.com/2020/01/31/13tKsg.png" alt="gmail配置01" title="gmail配置01"></p><p>然后保存更改。</p><p>2、允许不够安全的应用</p><p>登录谷歌邮箱后，访问 <a href="https://myaccount.google.com/u/0/lesssecureapps?pli=1&pageId=none" target="_blank" rel="noopener">谷歌权限设置界面</a> ，启用允许不够安全的应用。</p><p><img src="https://s2.ax1x.com/2020/01/31/1392KH.png" alt="gmail配置02" title="gmail配置02"></p><p>另外，若遇到提示</p><blockquote><p>不允许访问账户</p></blockquote><p>登录谷歌邮箱后，去 <a href="https://accounts.google.com/b/0/DisplayUnlockCaptcha" target="_blank" rel="noopener">gmail的这个界面</a> 点击允许。这种情况较为少见。</p><hr></details><details>    <summary>设置QQ邮箱</summary><br><p>在<code>设置&gt;账户&gt;POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务</code>下，开启<code>POP3/SMTP服务</code></p><p><img src="https://s2.ax1x.com/2020/01/31/13cIKA.png" alt="qq邮箱配置01" title="qq邮箱配置01"></p><p>此时坑爹的QQ邮箱会要求你用手机发送一条短信给腾讯，发送完了点一下<code>我已发送</code></p><p><img src="https://s2.ax1x.com/2020/01/31/13c4vd.png" alt="qq邮箱配置02" title="qq邮箱配置02"></p><p>然后你就能看到你的邮箱授权码了，使用邮箱账户加授权码即可登录，记下授权码</p><p><img src="https://s2.ax1x.com/2020/01/31/13cTbt.png" alt="qq邮箱配置03" title="qq邮箱配置03"></p><p><img src="https://s2.ax1x.com/2020/01/31/13coDI.png" alt="qq邮箱配置04" title="qq邮箱配置04"></p><hr></details><details>    <summary>设置163邮箱</summary><br><p>在<code>设置&gt;POP3/SMTP/IMAP</code>下，开启<code>POP3/SMTP服务</code>和<code>IMAP/SMTP服务</code>并保存</p><p><img src="https://s2.ax1x.com/2020/01/31/13WKZn.png" alt="163邮箱配置01" title="163邮箱配置01"></p><p><img src="https://s2.ax1x.com/2020/01/31/13WQI0.png" alt="163邮箱配置02" title="163邮箱配置02"></p><p>现在点击侧边栏的<code>客户端授权密码</code>，并获取授权码，你看到画面可能和我不一样，因为我已经获取了授权码，所以只有<code>重置授权码</code>按钮，这里自己根据网站提示申请获取授权码，网易和腾讯一样恶心，需要你用手机给它发一条短信才能拿到授权码</p><p><img src="https://s2.ax1x.com/2020/01/31/13WMaq.png" alt="163邮箱配置03" title="163邮箱配置03"></p><hr></details><h3 id="TGbot"><a href="#TGbot" class="headerlink" title="TGbot"></a>TGbot</h3><p>TG说起来话长，也没多少人用的感觉。<br>偷懒万岁~</p>]]></content>
       
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+            <tag> 域名 </tag>
+            
+            <tag> Freenom </tag>
+            
+            <tag> 代理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>55 个直播平台的直播源获取</title>
+      <link href="/55-zhi-bo-yuan.html"/>
+      <url>/55-zhi-bo-yuan.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Real-Url"><a href="#Real-Url" class="headerlink" title="Real-Url"></a>Real-Url</h1><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><ul><li><code>https://github.com/wbt5/real-url</code></li></ul><p>目前已实现：</p><p><strong>55</strong> 个直播平台的直播源获取：斗鱼直播、虎牙直播、哔哩哔哩直播、战旗直播、网易 CC 直播、火猫直播、企鹅电竞、YY 直播、一直播、快手直播、花椒直播、映客直播、西瓜直播、触手直播（已倒闭）、NOW 直播、抖音直播，爱奇艺直播、酷狗直播、龙珠直播、PPS 奇秀直播、六间房、17 直播、来疯直播、优酷轮播台、网易 LOOK 直播、千帆直播、陌陌直播、小米直播、迅雷直播、京东直播、企鹅体育、人人直播、棉花糖直播、九秀直播、羚萌直播、95秀、新浪疯播、红人直播、艾米直播、KK直播、酷我聚星、乐嗨直播、秀色直播、星光直播、我秀直播、热猫直播、艺气山直播、AcFun 直播、猫耳FM、畅秀阁、Twitch、TikTok、央视频、PP体育、zhibotv、腾讯体育直播。</p><p><strong>18</strong> 个直播平台的弹幕获取：斗鱼直播、虎牙直播、哔哩哔哩直播、快手直播、火猫直播、企鹅电竞、花椒直播、映客直播、网易 CC 直播、酷狗直播、龙珠直播、PPS 奇秀、搜狐千帆、战旗直播、来疯直播、网易 LOOK 直播、AcFun 直播、艺气山直播。</p><h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><ol><li>项目使用了很简单的 Python 代码，仅在 Python 3 环境运行测试。</li><li>具体所需模块请查看 requirements.txt</li><li>获取斗鱼和爱奇艺的直播源，需 JavaScript 环境，可使用 node.js。爱奇艺直播里有个参数是加盐的 MD5，由仓库中的 iqiyi.js 生成。</li><li>每个平台的直播源和弹幕获取功能相互独立，以后再整合。弹幕食用：python main.py</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+          <category> windows </category>
+          
+      </categories>
       
       
         <tags>
@@ -17,8 +56,6 @@
             <tag> 教程 </tag>
             
             <tag> 直播源 </tag>
-            
-            <tag> GitHub </tag>
             
         </tags>
       
