@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>wink`s Blog</title>
+  
+  <subtitle>winkmoyu</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://winkxx.github.io/"/>
+  <updated>2021-07-02T08:23:20.000Z</updated>
+  <id>https://winkxx.github.io/</id>
+  
+  <author>
+    <name>winkMoyu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>55 个直播平台的直播源获取~</title>
+    <link href="https://winkxx.github.io//articles/2021/07/02/1625214200185.html.html"/>
+    <id>https://winkxx.github.io//articles/2021/07/02/1625214200185.html.html</id>
+    <published>2021-07-02T08:23:20.000Z</published>
+    <updated>2021-07-02T08:23:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Real-Url&quot;&gt;&lt;a href=&quot;#Real-Url&quot; class=&quot;headerlink&quot; title=&quot;Real-Url&quot;&gt;&lt;/a&gt;Real-Url&lt;/h1&gt;&lt;h2 id=&quot;项目地址&quot;&gt;&lt;a href=&quot;#项目地址&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://winkxx.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="直播源" scheme="https://winkxx.github.io/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/"/>
+    
+      <category term="GitHub" scheme="https://winkxx.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMware 安装 CentOS 8.1 完整教程 </title>
+    <link href="https://winkxx.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html"/>
+    <id>https://winkxx.github.io/vmware-an-zhuang-centos-8-1-wan-zheng-jiao-cheng.html</id>
+    <published>2020-03-05T10:29:16.000Z</published>
+    <updated>2022-09-21T14:32:24.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我使用的&lt;font color=&quot;red&quot; size=&quot;3&quot;&gt;VMware&lt;/font&gt;版本：&lt;font color=&quot;red&quot; size=&quot;3&quot;&gt;VMware 15 Pro&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;镜像：&lt;font color=&quot;red&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://winkxx.github.io/categories/Linux/"/>
+    
+    
+      <category term="VMware" scheme="https://winkxx.github.io/tags/VMware/"/>
+    
+      <category term="CentOS" scheme="https://winkxx.github.io/tags/CentOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github + Hexo 搭建个人博客超详细教程</title>
+    <link href="https://winkxx.github.io/1.html"/>
+    <id>https://winkxx.github.io/1.html</id>
+    <published>2020-02-18T13:17:35.000Z</published>
+    <updated>2022-09-21T14:32:24.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://muyiio-1300292673.cos.ap-chongqing.myqcloud.com/%E5%8D%9A%E5%AE%A2/_posts/1/01.png&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;magenta&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Blog" scheme="https://winkxx.github.io/categories/Blog/"/>
+    
+    
+      <category term="Github" scheme="https://winkxx.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="https://winkxx.github.io/tags/Hexo/"/>
+    
+      <category term="博客搭建" scheme="https://winkxx.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+</feed>
